@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "354838780290",
+    "firebase_url": "https://chat-app-2a23c.firebaseio.com",
+    "project_id": "chat-app-2a23c",
+    "storage_bucket": "chat-app-2a23c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354838780290:android:936a09b75e28fd4d0fd79b",
+        "android_client_info": {
+          "package_name": "com.wahidhidayat.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "354838780290-5t623ep6q0s5s97avctqkk78ass816v1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wahidhidayat.chatapp",
+            "certificate_hash": "095c990a05fee09b49b23d21b6a21d970ac5400f"
+          }
+        },
+        {
+          "client_id": "354838780290-2i826ue8ec3obnb87q3aruv9k2jni1af.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmYDwulNjEi7pu5dW5ZyF4EeYPMiSzGu0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "354838780290-2i826ue8ec3obnb87q3aruv9k2jni1af.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
