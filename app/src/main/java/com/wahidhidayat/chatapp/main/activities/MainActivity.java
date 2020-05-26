@@ -23,6 +23,7 @@ import com.google.firebase.database.ValueEventListener;
 import com.wahidhidayat.chatapp.R;
 import com.wahidhidayat.chatapp.main.adapters.ViewPagerAdapter;
 import com.wahidhidayat.chatapp.main.fragments.ChatFragment;
+import com.wahidhidayat.chatapp.main.fragments.ProfileFragment;
 import com.wahidhidayat.chatapp.main.fragments.UserFragment;
 import com.wahidhidayat.chatapp.main.models.User;
 
@@ -73,9 +74,12 @@ public class MainActivity extends AppCompatActivity {
 
         TabLayout tabLayout = findViewById(R.id.tab_layout);
         ViewPager viewPager = findViewById(R.id.view_pager);
+
         viewPagerAdapter = new ViewPagerAdapter(getSupportFragmentManager());
         viewPagerAdapter.addFragment(new ChatFragment(), "Chats");
         viewPagerAdapter.addFragment(new UserFragment(), "Users");
+        viewPagerAdapter.addFragment(new ProfileFragment(), "Profile");
+
         viewPager.setAdapter(viewPagerAdapter);
         tabLayout.setupWithViewPager(viewPager);
 
